@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+}
+
+.logo{  
+    height: 40px;
+    
+    }
+    
+    header{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    }
+
+#navBar {
+    display: flex;
+    margin: 0px;
+    padding: 0;
+    list-style: none;
+}
+#navBar a{
+    text-decoration: none;
+    display: block;
+    padding: 8px 16px;
+}
+.contactUsSection{
+    background-image: url(https://assets.codepen.io/6306176/gulp-pouring-coffee-vertical.jpg);
+    display: block;
+    margin: auto;
+    height: 500px;
+    width: 300px;
+    align-content: center;
+}
+
+.aboutUsSection{    
+   
+
+}
+
+.actionCallSection{ 
+    font-size: 40px;
+    text-align: center;
+    padding: 30px;
+    margin: 5%;
+    color: azure;
+    background-color: rgba(180, 180, 180, .7);
+
+}
+
+#aboutUsText{   
+    text-align: center;
+    padding: 30px;
+    margin: 5%;
+    
+
+}
+
+#h1{
+    text-align: center;
+    font-size: 35px;
+}
+
+#contactButton{
+    background-color: rgb(180, 180, 180);
+    display: block;
+    padding: 16px 32px;
+    color: black;
+    margin: auto;
+    width: fit-content;
+    font-size: 18px;
+}
+
